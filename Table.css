@@ -1,0 +1,39 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 40px;
+}
+
+/* Styling the Table */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    border-style: groove;
+    border: 2px;
+    border-color: #5e5c5c;
+    
+}
+
+/* Styling the Table Headers */
+th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 6px solid #5e5c5c;
+    text-align: center;
+    border-style: double;
+}
+
+/* Styling Table Cells */
+td {
+    padding: 10px;
+    border: 6px solid #333;
+    text-align: center;
+    border-style: double;
+}
+
+
+
