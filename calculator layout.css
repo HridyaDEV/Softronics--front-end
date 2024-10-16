@@ -1,4 +1,4 @@
-/* General page styling */
+
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@ body {
     
 }
 
-/* Calculator table styling */
+
 table {
     width: 300px;
     
@@ -22,8 +22,9 @@ table {
    
 }
 
-/* Styling each cell in the table */
+
 td {
+    
     text-align: center;
     vertical-align: middle;
     font-size: 24px;
@@ -38,7 +39,7 @@ td {
     border-width: 20px;
 }
 
-/* Styling the screen row */
+
 tr:first-child td {
     background-color: #327c7c;
     height: 40px;
@@ -49,7 +50,7 @@ tr:first-child td {
     
 }
 
-/* Red buttons: C and backspace */
+
 tr:nth-child(2) td:first-child, 
 tr:nth-child(2) td:nth-child(2){
     background-color: #da2e2e;
@@ -58,7 +59,6 @@ tr:nth-child(2) td:nth-child(2){
 
 
 
-/* Adjust rowspan cells */
 td[rowspan="2"] {
     height: 100%;
 }

@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+table{
+    border-collapse: collapse;
+    border-color: rgb(211, 210, 208);
+    border-width: 20px;
+    border-style: solid;
+    padding: 30px;
+}
+td{
+    border-color: rgb(211, 210, 208);
+    border-collapse: collapse;
+    border-width: 10px;
+    border-style: inset;
+    padding: 35px;
+    background-color: rgb(71, 189, 189);
+}
+tr :first-child td {
+    background-color: rgb(255, 255, 255);
+    color: #fdfdfd;
+}
+
