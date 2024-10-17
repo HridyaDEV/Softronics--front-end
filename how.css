@@ -1,0 +1,54 @@
+body{
+    
+        background: linear-gradient(to right, #ff73d5, #cd85c9); 
+    
+    
+    align-items: center;
+}
+
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+table{
+    border: none;
+   margin: 50px auto;
+   width: 50%;
+   border-collapse: collapse;
+   height: 50%;
+   
+   border-radius: 10px 10px 0 0; 
+  
+   
+    
+
+
+}
+th{
+    height:35px ;
+    background-color: rgb(192, 42, 192);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50;
+    
+}
+th,td{
+    border:1px solid antiquewhite;
+    text-align : center;
+    height: 35px;
+}
+tr:nth-child(even){
+    background-color: rgb(235, 221, 236);
+
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
