@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Client</title>
+    <head>
+        <link rel="stylesheet" href="client.css">
+        <body>
+            <div class="client-form">
+                <form>
+                    <div class="form-heading">
+                    <h2>Client Details</h2>
+                    <p>Enter the details of all incoming clients</p>
+                    </div>
+                    <label>Client Name *</label>
+                    <input type="text" name="client-name" required>
+                    <label>Company *</label>
+                    <input type="text" name ="company" required>
+                    <label>Title</label>
+                    <input type="text" name ="title">
+                    <label>Department *</label>
+                    <select name="department" required>
+                        <option value="" disabled selected>Select</option>
+                         <option value="sales">Sales</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="finance">Finance</option>
+                        <option value="hr">HR</option>
+                    </select>
+                    <label>Preferred contact method *</label>
+                    <input type="radio" name="contact-method" value="email" required> Email
+                    <input type="radio" name="contact-method" value="phone" required> Phone
+                    <label>Company Address *</label>
+                    <input type="text" name="address1" required>
+                    <input type="text" name="address2">
+                    <div class="row">
+                        <div>
+                            <label>City *</label>
+                            <input type="text" name="city" required>
+                        </div>
+                        <div>
+                            <label>State/Region/Province *</label>
+                            <input type="text" name="state" required>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div>
+                            <label>Postal / Zip Code *</label>
+                            <input type="text" name="postal" required>
+                        </div>
+                        <div>
+                            <label>Country *</label>
+                            
+                            <select name="Country" required>
+                                <option value="" disabled selected>Select</option>
+                                 <option value="India">India</option>
+                                <option value="Nepal">Nepal</option>
+                                <option value="Malasia">Malasia</option>
+                                <option value="Indonasia">Indonasia</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+                    <label>Company Website *</label>
+                    <input type="url" name="website" required>
+                    <label>Company Logo</label>
+                    <input type="file" name="logo">
+
+                    <label>Working Hours *</label>
+                    <input type="text" name="working-hours" required>
+                            
+            <label>Working Days *</label>
+            <input type="text" name="working-days" required>
+
+            <label>Billing Cycle *</label>
+            <input type="date" name="billing-cycle" required>
+
+            <label>Additional Information</label>
+            <input type="text" name="Additional information">
+
+            <button type="submit">Submit</button>
+                </form>
+
+            </div>
+
+            
+        </body>
+    </head>
+</html>

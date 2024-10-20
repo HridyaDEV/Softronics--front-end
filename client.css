@@ -1,0 +1,94 @@
+body{
+    background-color:rgb(103, 219, 159) ;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+.client-form  {
+    margin-top: 30px;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 1000px;
+   
+    
+
+}
+ .client-form h2{
+    background-color: rgb(15, 61, 68);
+    width: 400px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.client-form p {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    background-color:rgb(15, 61, 68) ;
+  
+}
+.form-heading{
+    margin-top: 0;
+    padding-top: 10px;
+    background-color:rgb(15, 61, 68) ;
+    width: 400px;
+    
+   
+   
+}
+label {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #241f1f;
+    font-weight: bold;
+    
+    
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="radio"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.row div {
+    flex: 1;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00a763;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #00894e;
+}
+
+input{
+    border: none;
+    border-bottom:1px solid rgb(15, 15, 15) ;
+    
+}
