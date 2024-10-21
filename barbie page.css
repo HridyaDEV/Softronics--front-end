@@ -1,3 +1,6 @@
+body{
+    justify-content: center;
+}
 .top-bar {
     background-color: #00a075;
     display: flex;
@@ -5,6 +8,7 @@
     align-items: center;
     padding: 15px 30px;
     color: white;
+   
 }
 .top-bar .title {
     margin-left: 25px;
@@ -16,10 +20,13 @@
     list-style: none;
     margin-right: 25px;
 }
-h2{
+ .container h2{
     color: #0ca848;
     font-size: 50px;
-    margin-left: 50px;margin-top: 150px;
+    padding: 0;
+    margin:0;
+    margin-left: 50px;
+    margin-top: 150px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 h3{
@@ -28,7 +35,7 @@ margin-bottom: 0px;
 margin-top: 150px;
 font-size: 40px;
 }
-button{
+.container button{
     background-color: rgb(212, 212, 212);
     border-radius: 20px;
     width: 120px;
@@ -36,7 +43,8 @@ button{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 1px;
+    
     
     
 }

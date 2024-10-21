@@ -31,6 +31,7 @@ body{
     color: #ffffff;
     margin-bottom: 20px;
     background-color:rgb(15, 61, 68) ;
+    padding-bottom: 5px;
   
 }
 .form-heading{
@@ -90,5 +91,6 @@ button:hover {
 input{
     border: none;
     border-bottom:1px solid rgb(15, 15, 15) ;
+  
     
 }
