@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h2>Step 1: Your Details</h2>
+            <div class="field-container">
+                <label>Name:</label>
+                <input type="text" placeholder="First and last name" >
+            </div>
+            <div class="field-container">
+                <label>Email:</label>
+                <input type="email" placeholder="example@email.com" >
+            </div>
+            <div class="field-container">
+                <label>Phone:</label>
+                <input type="tel" placeholder="+91-xxxxxxxxxx" >
+            </div>
+
+            <h2>Step 2: Delivery Address</h2>
+            <div class="field-container">
+                <label>Address:</label>
+                <textarea rows="4" ></textarea>
+            </div>
+            <div class="field-container">
+                <label>Post Code:</label>
+                <input type="text"  >
+            </div>
+            <div class="field-container">
+                <label>Country:</label>
+                <input type="text" >
+            </div>
+
+            <h2>Step 3: Card Details</h2>
+            <div class="field-container">
+                <label>Card Type:</label>
+                <div class="card-type">
+                    <input type="radio" name="card" > <span>VISA</span>
+                    <input type="radio" name="card"> <span>AmEx</span>
+                    <input type="radio" name="card"> <span>Mastercard</span>
+                </div>
+            </div>
+            <div class="field-container">
+                <label>Card Number:</label>
+                <input type="text">
+            </div>
+            <div class="field-container">
+                <label>Security Code:</label>
+                <input type="password" >
+            </div>
+            <div class="field-container">
+                <label>Name on Card:</label>
+                <input type="text" placeholder="Exact name as on the card" >
+            </div>
+
+            <button type="button" >BUY IT!</button>
+        </form>
+    </div>
+</body>
+</html>
