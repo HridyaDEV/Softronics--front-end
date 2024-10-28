@@ -1,0 +1,20 @@
+body{
+    justify-content: center;
+    background-color: white;
+    
+}
+.navi-bar{
+    display: flex;
+    
+
+}
+.navi-bar li{
+    display: inline;
+    list-style: none;
+    margin: 15px;
+    margin-right: 50px;
+
+}
+.navi-bar h3{
+    
+}
