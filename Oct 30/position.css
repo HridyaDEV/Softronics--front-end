@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+   
+   
+}
+
+
+.blue {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 100px ;
+    position: relative;
+    
+
+}
+
+
+.boxs-section {
+  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px ;
+    background-color: white;
+}
+
+
+.box1{
+    position: absolute;
+   
+    top: 200px;
+    left: 250px;
+    
+    background-color: lightgray;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    overflow: scroll;
+    
+}
+.box2{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.box3{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    width: 200px;
+    
+    background-color: lightgray;
+
+}

@@ -1,0 +1,38 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+}
+
+
+.navbar {
+    background-color: #333; 
+    
+}
+
+.navbar ul {
+    list-style-type: none; 
+    display: flex;
+}
+
+.navbar li {
+   
+}
+
+.navbar a {
+    display: block;
+    color: white; 
+    padding: 14px 20px; 
+    text-decoration: none;
+}
+.service :hover .dropdown{
+    display: block;
+}

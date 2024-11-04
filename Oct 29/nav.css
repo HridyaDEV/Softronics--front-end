@@ -1,0 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+.navigation{
+    display: flex;
+    background-color: blueviolet;
+    gap: 800px;
+    justify-content: center;
+}
+.content{
+    display:flex;
+    
+    gap: 30px;
+}

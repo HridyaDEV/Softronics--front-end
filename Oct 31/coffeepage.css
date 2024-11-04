@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.white{
+    background-color: white;
+  padding-top: 10px;
+  
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    align-items: center;
+    
+    
+}
+
+
+.description h1{
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+        
+}
+.main-image{
+    position: relative;
+}
+ #image1{
+    position: relative;
+    margin-top: 2px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+    
+}
+#image2 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+     
+    left: 250px; 
+    
+}
+
+.description p{
+     
+    margin-top: 10px;
+
+
+    padding-top: 15px;
+}
+
+.description button{
+   display: block;
+
+   margin-top: 20px;
+
+    background-color: rgb(114, 57, 57);
+    width: 100px;
+    height: 35px;
+    border-style: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.description .text{
+    margin-left: 50px;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 500px;
+    position: relative;
+    top: 75px;
+    bottom: 50px;
+    width:600px;
+    height: 150px;
+    border-radius: 65px;
+    background-color: rgb(232, 204, 161);
+}
+.top-bar .items {
+    text-align: center;
+}
+.top-bar li{
+    list-style: none;
+    font-size: larger;
+    font-weight: 900;
+}
+.top-bar i {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.top-bar .items p {
+    margin-top: 10px;
+    color: #000000;
+    
+}
+
+
+.brown{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(46, 40, 40);
+    width: 100%;
+    height: 362px;
+    margin-top: 5px;
+    
+}
+
+.row-images {
+    margin-left: 0%;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly; 
+}
+.image-last {
+  margin-top: 20px;
+  margin-left: 10px;
+    
+   
+    
+     
+}
+.image-last img {
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.image-last p {
+    text-align: center; 
+    margin: 10px 0; 
+    font-size: 14px; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif; 
+}
