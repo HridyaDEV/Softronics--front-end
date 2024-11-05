@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+.gallery {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    
+    gap: 30px;
+    padding: 10px;
+    row-gap: 5px;
+}
+
+
+
+.gallery-item img {
+    width: 200px;
+    height: 300px;
+   
+}
+.gallery-item:hover img {
+    border: 1px solid rgb(145, 140, 140);
+}
+
+.caption {
+  
+    background-color: rgba(116, 116, 116, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+    
+}
+
+
