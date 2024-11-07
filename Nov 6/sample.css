@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.name {
+    display: flex;
+    align-items: baseline;
+}
+
+.name h2 {
+    color: green;
+    font-size: 2em;
+    font-weight: 1100;
+}
+
+.name h1 {
+    font-weight: 1100;
+    font-size: 2em;
+}
+
+.navigation-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navigation-menu li {
+    font-weight: 550;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(231, 231, 231);
+}
+
+.content {
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.heading h2 {
+    color: green;
+    font-size: 2.5em;
+}
+
+.heading h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.description p {
+    padding-top: 10px;
+    font-size: 1em;
+    color: #000000;
+}
+
+.buttons {
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttons .first {
+    background-color: green;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons .second {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    color: green;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.content-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.box-section {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

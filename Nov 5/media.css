@@ -1,0 +1,17 @@
+.main{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+    display: flex;
+}
+.container{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+}
+
+@media (max-width:1000px){
+    .main{
+        flex-direction: column;
+    }
+}
