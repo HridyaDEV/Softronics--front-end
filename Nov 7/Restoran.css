@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(steakbg.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.overlay{
+    
+    
+    height: 100vh;
+    width: auto;
+    background-color: rgb(0, 0, 0,0.8);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+
+.title{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    color: rgb(243, 164, 19);
+    gap: 8px;
+    font-weight: bolder;
+}
+.menu{
+    display: flex;
+    
+    gap: 15px;
+}
+
+.menu ul{
+    display: flex;
+    
+   list-style: none;
+   font-size: 1em;
+   font-weight: bold;
+    color: white;
+    gap: 15px;
+}
+.menu li:hover{
+    color: rgb(243, 164, 19);
+}
+.item{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.menu-button button {
+    background-color: rgb(243, 164, 19);
+    color: #ffffff;
+   height: 30px;
+   width: 120px;
+    border: none;
+    
+    font-weight: bold;
+    
+}
+.menu-button button:hover{
+    background-color: rgb(197, 101, 28);
+}
+.contents{
+
+ margin-top: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content-description h2{
+    color: #ffffff;
+    font-size: 50px;
+    padding: 5px;
+    font-weight: 2000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.content-description p{
+    color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+}
+.content-description button{
+    background-color:rgb(243, 164, 19); 
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+   margin-top: 20px;
+}
+.content-description button:hover{
+    background-color: rgb(197, 101, 28);
+
+}
+.contents .image{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   max-width: 70%;
+    
+
+}
+.image img {
+    width: 50%;
+    max-width: 700px;
+    
+    height: auto;
+    border-radius: 200px;
+    transition: transform 1s linear; 
+    
+}
+.image img:hover {
+    transform: rotate(360deg); 
+}
+
+
+
+@media (max-width: 1000px) {
+    .contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-description h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .content-description p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .content-description button {
+        width: 100%;
+    }
+
+    .contents .image {
+        max-width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .image img {
+        width: 70%;
+        max-width: 500px;
+        border-radius: 200px;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-button button {
+        width: 100%;
+    }
+}
