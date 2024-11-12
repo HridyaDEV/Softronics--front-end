@@ -63,8 +63,9 @@
 }
 .about{
     background-color: white;
-    height: 300px;
+    height: auto;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -119,8 +120,8 @@
     padding: 10px;
     padding-left: 50px;
     margin-top: 10px;
-    column-count: 3;
-    column-gap: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .content-item img{
     height: 200px;
@@ -253,11 +254,12 @@
 
     .about {
         flex-direction: column;
+        height: auto;
         
     }
 
     .contents {
-        column-count: 2;
+        flex-direction: column;
         padding: 20px;
     }
     .orange-back{
@@ -270,8 +272,15 @@
 
     .blue-back {
         flex-direction: column;
+        height: auto;
         align-items: center;
         padding: 20px;
+    }
+    .blue-back .form{
+        flex-direction: column;
+    }
+    .bottom-bar{
+        flex-direction: column;
     }
 
     
